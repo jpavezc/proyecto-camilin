@@ -2,7 +2,7 @@
 Module crud
     Public Class conexion
         Private MysqlCommand As New MySqlCommand
-        Dim MysqlConnString As String = "server=Miservidor; user id= myusuario ; password=myContraseña"
+        Dim MysqlConnString As String = "server=127.0.0.1; user id= root ; password=root"
         Public MysqlConexion As MySqlConnection = New MySqlConnection(MysqlConnString)
 
         Public Sub ConectionMysql()

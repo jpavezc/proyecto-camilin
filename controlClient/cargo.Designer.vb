@@ -24,13 +24,13 @@ Partial Class cargo
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.nbCargo = New System.Windows.Forms.Label()
-        Me.nbCargoInput = New System.Windows.Forms.TextBox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.agregarCargo = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.nombreCargo = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.editar = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.eliminar = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.nbCargoInput = New System.Windows.Forms.TextBox()
+        Me.nbCargo = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -58,21 +58,14 @@ Partial Class cargo
         Me.Panel1.Size = New System.Drawing.Size(481, 278)
         Me.Panel1.TabIndex = 1
         '
-        'nbCargo
+        'agregarCargo
         '
-        Me.nbCargo.AutoSize = True
-        Me.nbCargo.Location = New System.Drawing.Point(38, 19)
-        Me.nbCargo.Name = "nbCargo"
-        Me.nbCargo.Size = New System.Drawing.Size(90, 13)
-        Me.nbCargo.TabIndex = 0
-        Me.nbCargo.Text = "Nombre de Cargo"
-        '
-        'nbCargoInput
-        '
-        Me.nbCargoInput.Location = New System.Drawing.Point(159, 12)
-        Me.nbCargoInput.Name = "nbCargoInput"
-        Me.nbCargoInput.Size = New System.Drawing.Size(100, 20)
-        Me.nbCargoInput.TabIndex = 1
+        Me.agregarCargo.Location = New System.Drawing.Point(159, 38)
+        Me.agregarCargo.Name = "agregarCargo"
+        Me.agregarCargo.Size = New System.Drawing.Size(75, 23)
+        Me.agregarCargo.TabIndex = 3
+        Me.agregarCargo.Text = "Agregar"
+        Me.agregarCargo.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
@@ -82,15 +75,6 @@ Partial Class cargo
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(344, 143)
         Me.DataGridView1.TabIndex = 2
-        '
-        'agregarCargo
-        '
-        Me.agregarCargo.Location = New System.Drawing.Point(159, 38)
-        Me.agregarCargo.Name = "agregarCargo"
-        Me.agregarCargo.Size = New System.Drawing.Size(75, 23)
-        Me.agregarCargo.TabIndex = 3
-        Me.agregarCargo.Text = "Agregar"
-        Me.agregarCargo.UseVisualStyleBackColor = True
         '
         'nombreCargo
         '
@@ -106,6 +90,22 @@ Partial Class cargo
         '
         Me.eliminar.HeaderText = "Eliminar"
         Me.eliminar.Name = "eliminar"
+        '
+        'nbCargoInput
+        '
+        Me.nbCargoInput.Location = New System.Drawing.Point(159, 12)
+        Me.nbCargoInput.Name = "nbCargoInput"
+        Me.nbCargoInput.Size = New System.Drawing.Size(100, 20)
+        Me.nbCargoInput.TabIndex = 1
+        '
+        'nbCargo
+        '
+        Me.nbCargo.AutoSize = True
+        Me.nbCargo.Location = New System.Drawing.Point(38, 19)
+        Me.nbCargo.Name = "nbCargo"
+        Me.nbCargo.Size = New System.Drawing.Size(90, 13)
+        Me.nbCargo.TabIndex = 0
+        Me.nbCargo.Text = "Nombre de Cargo"
         '
         'cargo
         '

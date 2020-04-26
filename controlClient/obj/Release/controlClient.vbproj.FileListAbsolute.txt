@@ -53,3 +53,6 @@ C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\R
 C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\Release\controlClient.exe
 C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\Release\controlClient.xml
 C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\Release\controlClient.pdb
+C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\Release\controlClient.agregarCasa.resources
+C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\Release\controlClient.cargo.resources
+C:\Users\JPavezC\Documents\proyecto-camilin\proyecto-camilin\controlClient\obj\Release\controlClient.addingCasa.resources

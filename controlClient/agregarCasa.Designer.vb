@@ -25,20 +25,22 @@ Partial Class agregarCasa
         Me.agregarCasaPanel = New System.Windows.Forms.Panel()
         Me.addCasa = New System.Windows.Forms.LinkLabel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.buscarCondominio = New System.Windows.Forms.Button()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.comboCondominio = New System.Windows.Forms.Label()
         Me.numero = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.adultos = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.anio = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Modificar = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Eliminar = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.buscarCondominio = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.comboCondominio = New System.Windows.Forms.Label()
+        Me.casaAdd = New System.Windows.Forms.Button()
         Me.agregarCasaPanel.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'agregarCasaPanel
         '
+        Me.agregarCasaPanel.Controls.Add(Me.casaAdd)
         Me.agregarCasaPanel.Controls.Add(Me.addCasa)
         Me.agregarCasaPanel.Controls.Add(Me.DataGridView1)
         Me.agregarCasaPanel.Controls.Add(Me.buscarCondominio)
@@ -54,10 +56,8 @@ Partial Class agregarCasa
         Me.addCasa.AutoSize = True
         Me.addCasa.Location = New System.Drawing.Point(21, 109)
         Me.addCasa.Name = "addCasa"
-        Me.addCasa.Size = New System.Drawing.Size(71, 13)
+        Me.addCasa.Size = New System.Drawing.Size(0, 13)
         Me.addCasa.TabIndex = 4
-        Me.addCasa.TabStop = True
-        Me.addCasa.Text = "Agregar Casa"
         '
         'DataGridView1
         '
@@ -67,6 +67,31 @@ Partial Class agregarCasa
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(548, 141)
         Me.DataGridView1.TabIndex = 3
+        '
+        'numero
+        '
+        Me.numero.HeaderText = "numero"
+        Me.numero.Name = "numero"
+        '
+        'adultos
+        '
+        Me.adultos.HeaderText = "adultos"
+        Me.adultos.Name = "adultos"
+        '
+        'anio
+        '
+        Me.anio.HeaderText = "año"
+        Me.anio.Name = "anio"
+        '
+        'Modificar
+        '
+        Me.Modificar.HeaderText = "Modificar"
+        Me.Modificar.Name = "Modificar"
+        '
+        'Eliminar
+        '
+        Me.Eliminar.HeaderText = "Eliminar"
+        Me.Eliminar.Name = "Eliminar"
         '
         'buscarCondominio
         '
@@ -94,30 +119,14 @@ Partial Class agregarCasa
         Me.comboCondominio.TabIndex = 0
         Me.comboCondominio.Text = "Seleccionar Condominio"
         '
-        'numero
+        'casaAdd
         '
-        Me.numero.HeaderText = "numero"
-        Me.numero.Name = "numero"
-        '
-        'adultos
-        '
-        Me.adultos.HeaderText = "adultos"
-        Me.adultos.Name = "adultos"
-        '
-        'anio
-        '
-        Me.anio.HeaderText = "año"
-        Me.anio.Name = "anio"
-        '
-        'Modificar
-        '
-        Me.Modificar.HeaderText = "Modificar"
-        Me.Modificar.Name = "Modificar"
-        '
-        'Eliminar
-        '
-        Me.Eliminar.HeaderText = "Eliminar"
-        Me.Eliminar.Name = "Eliminar"
+        Me.casaAdd.Location = New System.Drawing.Point(3, 104)
+        Me.casaAdd.Name = "casaAdd"
+        Me.casaAdd.Size = New System.Drawing.Size(75, 23)
+        Me.casaAdd.TabIndex = 5
+        Me.casaAdd.Text = "Agregar Casa"
+        Me.casaAdd.UseVisualStyleBackColor = True
         '
         'agregarCasa
         '
@@ -145,4 +154,5 @@ Partial Class agregarCasa
     Friend WithEvents anio As DataGridViewTextBoxColumn
     Friend WithEvents Modificar As DataGridViewTextBoxColumn
     Friend WithEvents Eliminar As DataGridViewTextBoxColumn
+    Friend WithEvents casaAdd As Button
 End Class

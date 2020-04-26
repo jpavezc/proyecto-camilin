@@ -24,34 +24,34 @@ Partial Class ConsultarCondominio
     Private Sub InitializeComponent()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.Ubicación = New System.Windows.Forms.TabPage()
-        Me.Comité = New System.Windows.Forms.TabPage()
-        Me.Datos = New System.Windows.Forms.TabPage()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Ubicación = New System.Windows.Forms.TabPage()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Comité = New System.Windows.Forms.TabPage()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Datos = New System.Windows.Forms.TabPage()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.Ubicación.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.Comité.SuspendLayout()
         Me.Datos.SuspendLayout()
-        Me.Panel1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'TabControl1
@@ -77,39 +77,6 @@ Partial Class ConsultarCondominio
         Me.TabPage1.Text = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'Ubicación
-        '
-        Me.Ubicación.Controls.Add(Me.Panel2)
-        Me.Ubicación.Location = New System.Drawing.Point(4, 22)
-        Me.Ubicación.Name = "Ubicación"
-        Me.Ubicación.Padding = New System.Windows.Forms.Padding(3)
-        Me.Ubicación.Size = New System.Drawing.Size(799, 423)
-        Me.Ubicación.TabIndex = 1
-        Me.Ubicación.Text = "TabPage2"
-        Me.Ubicación.UseVisualStyleBackColor = True
-        '
-        'Comité
-        '
-        Me.Comité.Controls.Add(Me.ListBox1)
-        Me.Comité.Location = New System.Drawing.Point(4, 22)
-        Me.Comité.Name = "Comité"
-        Me.Comité.Padding = New System.Windows.Forms.Padding(3)
-        Me.Comité.Size = New System.Drawing.Size(799, 423)
-        Me.Comité.TabIndex = 2
-        Me.Comité.Text = "TabPage3"
-        Me.Comité.UseVisualStyleBackColor = True
-        '
-        'Datos
-        '
-        Me.Datos.Controls.Add(Me.ListBox2)
-        Me.Datos.Location = New System.Drawing.Point(4, 22)
-        Me.Datos.Name = "Datos"
-        Me.Datos.Padding = New System.Windows.Forms.Padding(3)
-        Me.Datos.Size = New System.Drawing.Size(799, 423)
-        Me.Datos.TabIndex = 3
-        Me.Datos.Text = "TabPage4"
-        Me.Datos.UseVisualStyleBackColor = True
-        '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.TextBox4)
@@ -124,6 +91,34 @@ Partial Class ConsultarCondominio
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(360, 180)
         Me.Panel1.TabIndex = 35
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(139, 118)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(198, 20)
+        Me.TextBox4.TabIndex = 42
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(139, 90)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(198, 20)
+        Me.TextBox3.TabIndex = 41
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(139, 62)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(198, 20)
+        Me.TextBox2.TabIndex = 40
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(139, 30)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(198, 20)
+        Me.TextBox1.TabIndex = 39
         '
         'Label7
         '
@@ -162,33 +157,16 @@ Partial Class ConsultarCondominio
         Me.Label6.TabIndex = 35
         Me.Label6.Text = "Nombre:"
         '
-        'TextBox1
+        'Ubicación
         '
-        Me.TextBox1.Location = New System.Drawing.Point(139, 30)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(198, 20)
-        Me.TextBox1.TabIndex = 39
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(139, 62)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(198, 20)
-        Me.TextBox2.TabIndex = 40
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(139, 90)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(198, 20)
-        Me.TextBox3.TabIndex = 41
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(139, 118)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(198, 20)
-        Me.TextBox4.TabIndex = 42
+        Me.Ubicación.Controls.Add(Me.Panel2)
+        Me.Ubicación.Location = New System.Drawing.Point(4, 22)
+        Me.Ubicación.Name = "Ubicación"
+        Me.Ubicación.Padding = New System.Windows.Forms.Padding(3)
+        Me.Ubicación.Size = New System.Drawing.Size(799, 423)
+        Me.Ubicación.TabIndex = 1
+        Me.Ubicación.Text = "TabPage2"
+        Me.Ubicación.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -203,23 +181,26 @@ Partial Class ConsultarCondominio
         Me.Panel2.Size = New System.Drawing.Size(426, 211)
         Me.Panel2.TabIndex = 0
         '
-        'Label1
+        'TextBox7
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(37, 61)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(65, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Condominio:"
+        Me.TextBox7.Location = New System.Drawing.Point(153, 122)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(206, 20)
+        Me.TextBox7.TabIndex = 5
         '
-        'Label2
+        'TextBox6
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(37, 91)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(79, 13)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Punto Cardinal:"
+        Me.TextBox6.Location = New System.Drawing.Point(153, 91)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(206, 20)
+        Me.TextBox6.TabIndex = 4
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(153, 61)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(206, 20)
+        Me.TextBox5.TabIndex = 3
         '
         'Label3
         '
@@ -230,26 +211,34 @@ Partial Class ConsultarCondominio
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Nombre de la Calle:"
         '
-        'TextBox5
+        'Label2
         '
-        Me.TextBox5.Location = New System.Drawing.Point(153, 61)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(206, 20)
-        Me.TextBox5.TabIndex = 3
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(37, 91)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(79, 13)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Punto Cardinal:"
         '
-        'TextBox6
+        'Label1
         '
-        Me.TextBox6.Location = New System.Drawing.Point(153, 91)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(206, 20)
-        Me.TextBox6.TabIndex = 4
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(37, 61)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Condominio:"
         '
-        'TextBox7
+        'Comité
         '
-        Me.TextBox7.Location = New System.Drawing.Point(153, 122)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(206, 20)
-        Me.TextBox7.TabIndex = 5
+        Me.Comité.Controls.Add(Me.ListBox1)
+        Me.Comité.Location = New System.Drawing.Point(4, 22)
+        Me.Comité.Name = "Comité"
+        Me.Comité.Padding = New System.Windows.Forms.Padding(3)
+        Me.Comité.Size = New System.Drawing.Size(799, 423)
+        Me.Comité.TabIndex = 2
+        Me.Comité.Text = "TabPage3"
+        Me.Comité.UseVisualStyleBackColor = True
         '
         'ListBox1
         '
@@ -258,6 +247,17 @@ Partial Class ConsultarCondominio
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(648, 264)
         Me.ListBox1.TabIndex = 0
+        '
+        'Datos
+        '
+        Me.Datos.Controls.Add(Me.ListBox2)
+        Me.Datos.Location = New System.Drawing.Point(4, 22)
+        Me.Datos.Name = "Datos"
+        Me.Datos.Padding = New System.Windows.Forms.Padding(3)
+        Me.Datos.Size = New System.Drawing.Size(799, 423)
+        Me.Datos.TabIndex = 3
+        Me.Datos.Text = "TabPage4"
+        Me.Datos.UseVisualStyleBackColor = True
         '
         'ListBox2
         '
@@ -277,13 +277,13 @@ Partial Class ConsultarCondominio
         Me.Text = "ConsultarCondominio"
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
-        Me.Ubicación.ResumeLayout(False)
-        Me.Comité.ResumeLayout(False)
-        Me.Datos.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Ubicación.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.Comité.ResumeLayout(False)
+        Me.Datos.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

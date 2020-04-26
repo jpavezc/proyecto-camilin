@@ -35,18 +35,12 @@ Partial Class Menu
         Me.IngresarUnNuevoCondominioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ConsultarPorUnCondominioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MapaDeCondominiosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MantenciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComitéToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearUnComitéToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModificarUnComitéToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CasaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AgregarUnaCasaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarUnaCasaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarUnaCasaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CargoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.MantenciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AgregarUnCargoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarUnCargoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarUnCargoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PuntoCardinalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AgregarUnPuntoCardinalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModificarUnPuntoCardinalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -117,7 +111,7 @@ Partial Class Menu
         '
         Me.CondominioToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IngresarUnNuevoCondominioToolStripMenuItem, Me.ConsultarPorUnCondominioToolStripMenuItem, Me.MapaDeCondominiosToolStripMenuItem})
         Me.CondominioToolStripMenuItem1.Name = "CondominioToolStripMenuItem1"
-        Me.CondominioToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.CondominioToolStripMenuItem1.Size = New System.Drawing.Size(122, 22)
         Me.CondominioToolStripMenuItem1.Text = "Acciones"
         '
         'IngresarUnNuevoCondominioToolStripMenuItem
@@ -137,6 +131,13 @@ Partial Class Menu
         Me.MapaDeCondominiosToolStripMenuItem.Name = "MapaDeCondominiosToolStripMenuItem"
         Me.MapaDeCondominiosToolStripMenuItem.Size = New System.Drawing.Size(237, 22)
         Me.MapaDeCondominiosToolStripMenuItem.Text = "Mapa de condominios"
+        '
+        'MantenciónToolStripMenuItem
+        '
+        Me.MantenciónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ComitéToolStripMenuItem, Me.CasaToolStripMenuItem, Me.CargoToolStripMenuItem, Me.PuntoCardinalToolStripMenuItem, Me.UbicaciónToolStripMenuItem})
+        Me.MantenciónToolStripMenuItem.Name = "MantenciónToolStripMenuItem"
+        Me.MantenciónToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
+        Me.MantenciónToolStripMenuItem.Text = "Mantención"
         '
         'ComitéToolStripMenuItem
         '
@@ -159,60 +160,15 @@ Partial Class Menu
         '
         'CasaToolStripMenuItem
         '
-        Me.CasaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarUnaCasaToolStripMenuItem, Me.ModificarUnaCasaToolStripMenuItem, Me.EliminarUnaCasaToolStripMenuItem})
         Me.CasaToolStripMenuItem.Name = "CasaToolStripMenuItem"
         Me.CasaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CasaToolStripMenuItem.Text = "Casa"
         '
-        'AgregarUnaCasaToolStripMenuItem
-        '
-        Me.AgregarUnaCasaToolStripMenuItem.Name = "AgregarUnaCasaToolStripMenuItem"
-        Me.AgregarUnaCasaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AgregarUnaCasaToolStripMenuItem.Text = "Agregar una casa"
-        '
-        'ModificarUnaCasaToolStripMenuItem
-        '
-        Me.ModificarUnaCasaToolStripMenuItem.Name = "ModificarUnaCasaToolStripMenuItem"
-        Me.ModificarUnaCasaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ModificarUnaCasaToolStripMenuItem.Text = "Modificar una casa"
-        '
-        'EliminarUnaCasaToolStripMenuItem
-        '
-        Me.EliminarUnaCasaToolStripMenuItem.Name = "EliminarUnaCasaToolStripMenuItem"
-        Me.EliminarUnaCasaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.EliminarUnaCasaToolStripMenuItem.Text = "Eliminar una casa"
-        '
         'CargoToolStripMenuItem
         '
-        Me.CargoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AgregarUnCargoToolStripMenuItem, Me.ModificarUnCargoToolStripMenuItem, Me.EliminarUnCargoToolStripMenuItem})
         Me.CargoToolStripMenuItem.Name = "CargoToolStripMenuItem"
         Me.CargoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CargoToolStripMenuItem.Text = "Cargo"
-        '
-        'MantenciónToolStripMenuItem
-        '
-        Me.MantenciónToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ComitéToolStripMenuItem, Me.CasaToolStripMenuItem, Me.CargoToolStripMenuItem, Me.PuntoCardinalToolStripMenuItem, Me.UbicaciónToolStripMenuItem})
-        Me.MantenciónToolStripMenuItem.Name = "MantenciónToolStripMenuItem"
-        Me.MantenciónToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
-        Me.MantenciónToolStripMenuItem.Text = "Mantención"
-        '
-        'AgregarUnCargoToolStripMenuItem
-        '
-        Me.AgregarUnCargoToolStripMenuItem.Name = "AgregarUnCargoToolStripMenuItem"
-        Me.AgregarUnCargoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AgregarUnCargoToolStripMenuItem.Text = "Agregar un cargo"
-        '
-        'ModificarUnCargoToolStripMenuItem
-        '
-        Me.ModificarUnCargoToolStripMenuItem.Name = "ModificarUnCargoToolStripMenuItem"
-        Me.ModificarUnCargoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ModificarUnCargoToolStripMenuItem.Text = "Modificar un cargo"
-        '
-        'EliminarUnCargoToolStripMenuItem
-        '
-        Me.EliminarUnCargoToolStripMenuItem.Name = "EliminarUnCargoToolStripMenuItem"
-        Me.EliminarUnCargoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.EliminarUnCargoToolStripMenuItem.Text = "Eliminar un cargo"
         '
         'PuntoCardinalToolStripMenuItem
         '
@@ -274,19 +230,19 @@ Partial Class Menu
         'CondominiosToolStripMenuItem
         '
         Me.CondominiosToolStripMenuItem.Name = "CondominiosToolStripMenuItem"
-        Me.CondominiosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CondominiosToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
         Me.CondominiosToolStripMenuItem.Text = "Condominios"
         '
         'ComitésToolStripMenuItem
         '
         Me.ComitésToolStripMenuItem.Name = "ComitésToolStripMenuItem"
-        Me.ComitésToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ComitésToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
         Me.ComitésToolStripMenuItem.Text = "Comités"
         '
         'HabitantesToolStripMenuItem
         '
         Me.HabitantesToolStripMenuItem.Name = "HabitantesToolStripMenuItem"
-        Me.HabitantesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HabitantesToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
         Me.HabitantesToolStripMenuItem.Text = "Habitantes"
         '
         'Label1
@@ -350,13 +306,7 @@ Partial Class Menu
     Friend WithEvents CrearUnComitéToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModificarUnComitéToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CasaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AgregarUnaCasaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ModificarUnaCasaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EliminarUnaCasaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CargoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AgregarUnCargoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ModificarUnCargoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EliminarUnCargoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PuntoCardinalToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AgregarUnPuntoCardinalToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModificarUnPuntoCardinalToolStripMenuItem As ToolStripMenuItem

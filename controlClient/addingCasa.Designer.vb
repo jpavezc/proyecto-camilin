@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class addCasa
+Partial Class addingCasa
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,36 +22,50 @@ Partial Class addCasa
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.nCasatxtBox = New System.Windows.Forms.TextBox()
-        Me.anioCasaTxtBox = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.cntAddCasa = New System.Windows.Forms.Panel()
         Me.agregarCasabtn = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
+        Me.anioCasaTxtBox = New System.Windows.Forms.TextBox()
+        Me.nCasatxtBox = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.cntAddCasa.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel1
+        'cntAddCasa
         '
-        Me.Panel1.Controls.Add(Me.agregarCasabtn)
-        Me.Panel1.Controls.Add(Me.anioCasaTxtBox)
-        Me.Panel1.Controls.Add(Me.nCasatxtBox)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(175, 49)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(401, 291)
-        Me.Panel1.TabIndex = 0
+        Me.cntAddCasa.Controls.Add(Me.agregarCasabtn)
+        Me.cntAddCasa.Controls.Add(Me.anioCasaTxtBox)
+        Me.cntAddCasa.Controls.Add(Me.nCasatxtBox)
+        Me.cntAddCasa.Controls.Add(Me.Label2)
+        Me.cntAddCasa.Controls.Add(Me.Label1)
+        Me.cntAddCasa.Location = New System.Drawing.Point(175, 49)
+        Me.cntAddCasa.Name = "cntAddCasa"
+        Me.cntAddCasa.Size = New System.Drawing.Size(401, 291)
+        Me.cntAddCasa.TabIndex = 0
         '
-        'Label1
+        'agregarCasabtn
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(50, 42)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(86, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Numero de Casa"
+        Me.agregarCasabtn.Location = New System.Drawing.Point(178, 116)
+        Me.agregarCasabtn.Name = "agregarCasabtn"
+        Me.agregarCasabtn.Size = New System.Drawing.Size(75, 23)
+        Me.agregarCasabtn.TabIndex = 7
+        Me.agregarCasabtn.Text = "Aceptar"
+        Me.agregarCasabtn.UseVisualStyleBackColor = True
+        '
+        'anioCasaTxtBox
+        '
+        Me.anioCasaTxtBox.Location = New System.Drawing.Point(178, 67)
+        Me.anioCasaTxtBox.Name = "anioCasaTxtBox"
+        Me.anioCasaTxtBox.Size = New System.Drawing.Size(100, 20)
+        Me.anioCasaTxtBox.TabIndex = 5
+        '
+        'nCasatxtBox
+        '
+        Me.nCasatxtBox.Location = New System.Drawing.Point(178, 35)
+        Me.nCasatxtBox.Name = "nCasatxtBox"
+        Me.nCasatxtBox.Size = New System.Drawing.Size(100, 20)
+        Me.nCasatxtBox.TabIndex = 4
         '
         'Label2
         '
@@ -62,19 +76,14 @@ Partial Class addCasa
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Año"
         '
-        'nCasatxtBox
+        'Label1
         '
-        Me.nCasatxtBox.Location = New System.Drawing.Point(178, 35)
-        Me.nCasatxtBox.Name = "nCasatxtBox"
-        Me.nCasatxtBox.Size = New System.Drawing.Size(100, 20)
-        Me.nCasatxtBox.TabIndex = 4
-        '
-        'anioCasaTxtBox
-        '
-        Me.anioCasaTxtBox.Location = New System.Drawing.Point(178, 67)
-        Me.anioCasaTxtBox.Name = "anioCasaTxtBox"
-        Me.anioCasaTxtBox.Size = New System.Drawing.Size(100, 20)
-        Me.anioCasaTxtBox.TabIndex = 5
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(50, 42)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(86, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Numero de Casa"
         '
         'Label3
         '
@@ -86,32 +95,23 @@ Partial Class addCasa
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Agregar Casa"
         '
-        'agregarCasabtn
-        '
-        Me.agregarCasabtn.Location = New System.Drawing.Point(178, 116)
-        Me.agregarCasabtn.Name = "agregarCasabtn"
-        Me.agregarCasabtn.Size = New System.Drawing.Size(75, 23)
-        Me.agregarCasabtn.TabIndex = 7
-        Me.agregarCasabtn.Text = "Aceptar"
-        Me.agregarCasabtn.UseVisualStyleBackColor = True
-        '
-        'addCasa
+        'addingCasa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Panel1)
-        Me.Name = "addCasa"
+        Me.Controls.Add(Me.cntAddCasa)
+        Me.Name = "addingCasa"
         Me.Text = "addCasa"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.cntAddCasa.ResumeLayout(False)
+        Me.cntAddCasa.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents cntAddCasa As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents anioCasaTxtBox As TextBox
