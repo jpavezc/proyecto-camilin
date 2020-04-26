@@ -13,3 +13,14 @@ C:\VisualBasic\workSpace\controlClient\controlClient\obj\Debug\controlClient.xml
 C:\VisualBasic\workSpace\controlClient\controlClient\obj\Debug\controlClient.pdb
 C:\VisualBasic\workSpace\controlClient\controlClient\obj\Debug\controlClient.ConsultarCondominio.resources
 C:\VisualBasic\workSpace\controlClient\controlClient\obj\Debug\controlClient.IngresarCondominio.resources
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.vbprojAssemblyReference.cache
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.ConsultarCondominio.resources
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.IngresarCondominio.resources
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.MapaCondominios.resources
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.Menu.resources
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.Resources.resources
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.vbproj.GenerateResource.cache
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.vbproj.CoreCompileInputs.cache
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.exe
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.xml
+C:\VisualBasic\workSpace\proyecto-camilin\controlClient\obj\Debug\controlClient.pdb
