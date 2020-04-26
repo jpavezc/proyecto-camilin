@@ -26,8 +26,8 @@ Partial Class IngresarCondominio
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtUbicacion = New System.Windows.Forms.TextBox()
+        Me.txtCasas = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -67,19 +67,19 @@ Partial Class IngresarCondominio
         Me.Label4.Size = New System.Drawing.Size(0, 13)
         Me.Label4.TabIndex = 3
         '
-        'TextBox1
+        'txtUbicacion
         '
-        Me.TextBox1.Location = New System.Drawing.Point(116, 66)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(191, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.txtUbicacion.Location = New System.Drawing.Point(116, 66)
+        Me.txtUbicacion.Name = "txtUbicacion"
+        Me.txtUbicacion.Size = New System.Drawing.Size(191, 20)
+        Me.txtUbicacion.TabIndex = 4
         '
-        'TextBox2
+        'txtCasas
         '
-        Me.TextBox2.Location = New System.Drawing.Point(116, 92)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(191, 20)
-        Me.TextBox2.TabIndex = 5
+        Me.txtCasas.Location = New System.Drawing.Point(116, 92)
+        Me.txtCasas.Name = "txtCasas"
+        Me.txtCasas.Size = New System.Drawing.Size(191, 20)
+        Me.txtCasas.TabIndex = 5
         '
         'TextBox3
         '
@@ -104,8 +104,8 @@ Partial Class IngresarCondominio
         Me.ClientSize = New System.Drawing.Size(405, 255)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtCasas)
+        Me.Controls.Add(Me.txtUbicacion)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -121,8 +121,8 @@ Partial Class IngresarCondominio
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtUbicacion As TextBox
+    Friend WithEvents txtCasas As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Button1 As Button
 End Class
